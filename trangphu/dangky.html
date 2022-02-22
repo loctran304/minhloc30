@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19-PS23034-Tran Minh Loc</title>
+    <style>
+        .container{
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 10px 30px;
+            box-shadow: 5px 5px 10px black;
+        }
+        .fontchu{
+            font-variant: small-caps;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .form-group{
+            margin: 10px 20px;
+        }
+        .form-control{
+            margin: 10px 0px;
+            padding: 5px;
+            border: none;
+            border-radius: 4px;
+            width: 200px;
+            box-shadow: 0 0 4px black;
+            color: blue;
+            display: block;
+            outline: none;
+        }
+        .form-control:focus{
+            box-shadow: 0 0 4px orangered;
+            color: blue;
+        }
+        .form-button{
+            border: none;
+            border-radius: 3px;
+            box-shadow: 0 0 3px gray;
+            padding: 5px 10px;
+            outline: none;
+        }
+        .form-button:focus{
+            box-shadow: 0 0 4px orangered;
+            color: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="dangnhap">
+            <div class="form-group">
+                <label class="fontchu" >Họ và tên</label>
+                <input type="text " name="hoten" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label class="fontchu" >Mật khẩu :</label>
+                <input type="password" name="password " class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="fontchu" >Nhâp lại mật khẩu :</label>
+                <input type="password" name="password " class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="fontchu">Giới tính :
+                    <input type="checkbox" name="gioitinh" value="nam"  />Nam
+                    <input type="checkbox" name="gioitinh" value="nữ"  />Nữ
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="fontchu">Hình ảnh :</label> <br>
+                <input type="file" />
+            </div>
+            <div class="form-group">
+                <label class="form-group-label">Ngày sinh :</label>
+                <br>
+                <input type="date" class="form-control" tabindex="3"/>
+            </div>
+            <div class="form-group">
+               <label class="fontchu" >Quốc tịch :</label>
+                <select class="form-control"> 
+                    <option selected>Việt Nam</option>
+                    <option >China</option>
+                    <option >Korea</option>
+                    <option >american</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="fontchu" >Ghi chú :</label>
+                <br>
+                <textarea rows="5" class="form-control"></textarea>
+            </div>
+            <hr align="left" width="410px">
+            <input type="submit" value="Đăng ký" class="form-button" />
+            <input type="submit" value="Nhập lại" class="form-button" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+.up{
+    width: 75%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+} 
+.up ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+input[type="text"] {
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline:none;
+    padding: 8px 14px;
+}
+
+
+
+
+.container{
+    position: absolute;
+    margin: auto;
+}
+
+.container>nav{
+    line-height: 40px;
+    background-color: black; 
+     
+
+}
+.container>nav>ul>li>a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:black;
+    text-align: center;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    line-height:30px;
+    color: black;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding:10px;
+
+}
+.menu ul ul a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.container>article{
+    width: 17%;
+    background-color: white;
+    float: left;
+}
+
+
+.vmenu{
+    padding: 0px;
+    margin: 6px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    display:block;
+
+    color:black;
+    font-variant:small-caps;
+    font-size:larger;
+    text-decoration:none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+   
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+
+.container>aside{
+    width: 83%;      
+    background-color: white;
+    float: left;
+}
+.container>aside>div>img{
+    width: 1050px;
+    height: 330px;
+    padding: 10px;
+}
+
+iframe[name=page]{
+    float: left;
+    width: 1300px;
+    min-height: 1000px;
+   
+}
+
+
+.container>footer{
+    height: 200px;
+    border-top: 5px double black;
+    line-height: 25px;
+    background-color: white;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>footer>img{
+    width: 250px;
+}
+.part{
+    float: right;
+    box-sizing: border-box;
+    min-width: 200px;
+}
+.part>.tittle{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px ;
+    letter-spacing: 1.2px;
+}
+.part>.colum-list{
+    font-size: 15px;
+
+    box-sizing: border-box;
+    list-style: none;
+
+}
