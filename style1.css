@@ -1,0 +1,144 @@
+.up{
+    width: 75%;
+    height: 50px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+} 
+.up ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+input[type="text"] {
+    width: 320px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline:none;
+    padding: 8px 14px;
+}
+
+
+nav{
+    font-family: Montserrat-Regular;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 230px;
+}
+.mot{
+    font-family: Montserrat-Regular;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 20px;
+}
+
+
+.col-25{
+    width:25%;
+    float: left;
+    
+}
+.prod{
+    box-shadow: 0 3px 3px black;
+    border-radius:5px;
+    margin:10px;
+    padding:5px;
+    
+    position:relative;
+}
+.prod>.name{
+    font-variant:small-caps;
+    color: black;
+}
+.prod>.image{
+    min-height: 200px;
+    max-width:60%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.prod>.price{
+    position:absolute;
+    left:5px;
+    bottom:5px;
+    font-family:Impact;
+    font-size:25px;
+    color: black;
+}
+.prod>.icons{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    width:30px;
+}
+.prod>.new-icon{
+    position:absolute;
+    top:0px;
+    right:0px;
+    width: 25%;
+}
+
+.prod:hover{
+    box-shadow: 3px 3px 7px grey;
+}
+.prod>.price>.giadel{
+    font-size: 17px;
+    color: gray;
+}
+article{
+    float: left;
+    width: 60%;
+}
+aside{
+    margin: 0 auto;
+    box-sizing: border-box;
+    float: right;
+    width: 33%;
+    height: 300px;
+    background-color: #ffffff;
+    font-size: 14pt;
+    line-height: 20pt;
+    margin-top: 25px;
+    padding: 20px;
+}
+footer{
+    height: 200px;
+    border-top: 5px double black;
+    line-height: 25px;
+    background-color: white;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+.part{
+    float: right;
+    box-sizing: border-box;
+    min-width: 200px;
+}
+.part>.tittle{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px ;
+    letter-spacing: 1.2px;
+}
+.part>.colum-list{
+    font-size: 15px;
+
+    box-sizing: border-box;
+    list-style: none;
+
+}
