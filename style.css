@@ -1,6 +1,6 @@
 .up{
     width: 75%;
-    height: 70px;
+    height: 50px;
     margin: 0 auto;
 }
 .up ul{
@@ -34,6 +34,9 @@ input[type="text"] {
 .container{
     position: absolute;
     margin: auto;
+}
+.container>header{
+    height: 50px;
 }
 
 .container>nav{
